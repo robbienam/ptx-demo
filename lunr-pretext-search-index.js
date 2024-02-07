@@ -19,6 +19,15 @@ var ptx_lunr_docs = [
   "body": " Section Title  Text of section.  "
 },
 {
+  "id": "precalculus-demo-book-5",
+  "level": "1",
+  "url": "precalculus-demo-book-5.html",
+  "type": "Chapter",
+  "number": "2",
+  "title": "The First Chapter",
+  "body": " The First Chapter  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
