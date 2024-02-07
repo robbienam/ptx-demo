@@ -19,13 +19,40 @@ var ptx_lunr_docs = [
   "body": " Section Title  Text of section.  "
 },
 {
-  "id": "precalculus-demo-book-5",
+  "id": "precalculus-demo-book-5-2",
   "level": "1",
-  "url": "precalculus-demo-book-5.html",
-  "type": "Chapter",
-  "number": "2",
-  "title": "The First Chapter",
-  "body": " The First Chapter  "
+  "url": "precalculus-demo-book-5-2.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "",
+  "body": "   The imaginary unit  satisfies the identity . By convention, represents the principal (imaginary) square root of : .      For and the imaginary unit, we define their product to be the imaginary number  .     Euler's Identity   Euler's Identity relates complex exponentials and trigonmetric functions:     "
+},
+{
+  "id": "def-imaginary-unit",
+  "level": "2",
+  "url": "precalculus-demo-book-5-2.html#def-imaginary-unit",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  The imaginary unit  satisfies the identity . By convention, represents the principal (imaginary) square root of : .   "
+},
+{
+  "id": "def-imaginary-numbers",
+  "level": "2",
+  "url": "precalculus-demo-book-5-2.html#def-imaginary-numbers",
+  "type": "Definition",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  For and the imaginary unit, we define their product to be the imaginary number  .   "
+},
+{
+  "id": "prop-Euler-identity",
+  "level": "2",
+  "url": "precalculus-demo-book-5-2.html#prop-Euler-identity",
+  "type": "Proposition",
+  "number": "2.1.3",
+  "title": "Euler’s Identity.",
+  "body": " Euler's Identity   Euler's Identity relates complex exponentials and trigonmetric functions:    "
 },
 {
   "id": "backmatter-2",
