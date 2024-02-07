@@ -13,7 +13,35 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
-
+    <chapter>
+      <title>The Second Chapter</title>
+      <section>
+        <definition xml:id="def-imaginary-unit">
+          <statement>
+            <p>
+              The <term>imaginary unit</term> <m>i</m> satisfies the identity <m>i^2=-1</m>. By convention, <m>i</m> represents the principal (imaginary) square root of <m>-1</m>: <me>i = \sqrt{-1}</me>.
+            </p>
+          </statement>
+        </definition>
+        <definition xml:id="def-imaginary-numbers">
+          <statement>
+            <p>
+              For <m>b\in\mathbb{R}</m> and <m>i</m> the imaginary unit, we define their product to be the <term>imaginary number</term> <m>bi</m>. 
+            </p>
+          </statement>
+        </definition>
+        <proposition xml:id="prop-Euler-identity">
+          <title>Euler's Identity</title>
+          <statement>
+            <p>
+              Euler's Identity relates complex exponentials and trigonmetric functions:
+              <me>e^{i\pi}+1=0.</me>
+            </p>
+          </statement>
+        </proposition>
+        
+      </section>
+    </chapter>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
