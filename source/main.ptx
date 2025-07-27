@@ -4,29 +4,37 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="precalculus-demo-book">
-    <title>Precalculus Demo</title>
-    <subtitle>An example to get you started with Precalculus}</subtitle>
+  <book xml:id="Euclids-elements">
+    <title>Euclid's Elements</title>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
-
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
-    <chapter>
-      <title>The Second Chapter</title>
-      <section>
-        <definition xml:id="def-imaginary-unit">
+    <part xml:id="Book-1">
+      <title>Book 1</title>
+      
+      <!-- Include chapters -->
+      <xi:include href="./ch-chapter-title.ptx" />
+      <chapter>
+        <title>Definitions</title>
+        
+        <definition xml:id="def-point">
           <statement>
             <p>
-              The <term>imaginary unit</term> <m>i</m> satisfies the identity <m>i^2=-1</m>. By convention, <m>i</m> represents the principal (imaginary) square root of <m>-1</m>: <me>i = \sqrt{-1}</me>.
+              A <term>point</term> is that which has no part.
             </p>
           </statement>
         </definition>
-        <definition xml:id="def-imaginary-numbers">
+        <definition xml:id="def-line">
           <statement>
             <p>
-              For <m>b\in\mathbb{R}</m> and <m>i</m> the imaginary unit, we define their product to be the <term>imaginary number</term> <m>bi</m>. 
+              A <term>line</term> is breadthless length. 
+            </p>
+          </statement>
+        </definition>
+        <definition xml:id="def-line-extremeties">
+          <statement>
+            <p>
+              The extremeties of lines are points. 
             </p>
           </statement>
         </definition>
@@ -39,10 +47,10 @@
             </p>
           </statement>
         </proposition>
-        
-      </section>
-    </chapter>
-
+          
+       
+      </chapter>
+    </part>
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
